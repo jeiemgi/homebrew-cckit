@@ -5,7 +5,7 @@ class Cckit < Formula
   desc "Project operating system for coding agents — the full GitHub work lifecycle as a CLI"
   homepage "https://cckit.vercel.app"
   url "https://github.com/jeiemgi/cckit/archive/refs/tags/v0.1.7.tar.gz"
-  sha256 "c2a1bcc39a132eecc3e5e1083d1f58fca2e190352047d9bc50e2f3cd061a113b"
+  sha256 "6a3d97cbf4c68c0e87d5edf73032ec3d1181c2b60fd5caa8695d42280e464d93"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/jeiemgi/cckit.git", branch: "main"
 
