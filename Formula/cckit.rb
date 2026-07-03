@@ -1,11 +1,13 @@
-# Homebrew formula for cckit — published to the jeiemgi/homebrew-cckit tap.
-#   brew tap jeiemgi/cckit && brew install cckit
-# The stable url/sha256 are bumped per release.
+# Homebrew formula for cckit.
+# Install (HEAD) once this lives in a tap (jeiemgi/homebrew-cckit):
+#   brew tap jeiemgi/cckit && brew install --HEAD cckit
+# A stable `url`/`sha256` block is added automatically by the release workflow on the first tag.
 class Cckit < Formula
   desc "Project operating system for coding agents — the full GitHub work lifecycle as a CLI"
   homepage "https://cckit.vercel.app"
-  url "https://github.com/jeiemgi/cckit/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "526a52169ad2bf2a54135238040c220da98e40bbfa3fb23098828cde76a306bb"
+  url "https://github.com/jeiemgi/cckit/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "7976fc21edd2ed026dd3f5d4192f9919279f96f9b096a1fa305934dfe53dd282"
+  version "0.4.0"
   license any_of: ["MIT", "Apache-2.0"]
   head "https://github.com/jeiemgi/cckit.git", branch: "main"
 
